@@ -1,0 +1,25 @@
+:root {
+  /* Paleta "Noite de Brasília" */
+  --ink: #0C1822;        /* fundo: tinta azul profunda */
+  --ink-raised: #122331; /* superfícies */
+  --line: #253948;       /* fios */
+  --paper: #ECE6DA;      /* texto principal: a cor do documento */
+  --concrete: #A3ADB3;   /* texto secundário: concreto frio */
+  --brass: #C9A06A;      /* acento raro: Brasil, foco, detalhes */
+
+  --font-display: 'Spectral', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Public Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* escala tipográfica (razão ~1.25, fluida) */
+  --step--1: clamp(0.82rem, 0.8rem + 0.1vw, 0.88rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.4vw, 1.45rem);
+  --step-2: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
+  --step-3: clamp(1.9rem, 1.5rem + 1.8vw, 3.1rem);
+  --step-4: clamp(2.3rem, 1.6rem + 3.2vw, 4.6rem);
+
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --section-y: clamp(5rem, 12vw, 10rem);
+  --header-h: 4.5rem;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
