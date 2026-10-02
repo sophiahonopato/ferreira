@@ -6,7 +6,7 @@ import Areas from './sections/Areas';
 import Team from './sections/Team';
 import Location from './sections/Location';
 import Contact from './sections/Contact';
-import Outro from './sections/Outro';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import Footer from './sections/Footer';
 import { useReducedMotion } from './hooks/useReducedMotion';
 import { detectTier } from './hooks/useDeviceTier';
@@ -77,10 +77,9 @@ export default function App() {
           <Location />
           <Contact />
         </div>
-        <Outro with3D={with3D} />
       </main>
       <Footer />
-      <Diagnostics tier={tier} reduced={reduced} calm={calm} failed3D={failed3D} with3D={with3D} />
+      <WhatsAppFloat />
     </>
   );
 }

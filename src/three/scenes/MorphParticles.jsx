@@ -65,6 +65,7 @@ export default function MorphParticles({ N, targets, land, size, calm = false })
     u.uPixelRatio.value = viewport.dpr;
     // Brasil ganha destaque do mapa ao globo
     u.uAccent.value = Math.max(near(s, 5, 1.2), near(s, 6, 1.2), near(s, 8, 0.8) * 0.6);
+    u.uOpacity.value = 0.8 * Math.min(1, Math.max(0, (s - 0.3) / 0.45));
   });
 
   return (

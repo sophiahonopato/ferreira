@@ -20,7 +20,7 @@ export const STORY_END = STAGE.BRASILIA; // fim do primeiro bloco narrativo
 export function buildTargets(N, land, logoImage) {
   const logo = logoShape(N, { image: logoImage });
   return [
-    logo,
+    envelopeShape(N, { open: 0 }), // Hero: as partículas já surgem como o envelope do capítulo 1
     envelopeShape(N, { open: 0 }),
     envelopeShape(N, { open: 1 }),
     documentShape(N),

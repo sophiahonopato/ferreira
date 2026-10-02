@@ -53,6 +53,15 @@ export const NAV = [
   { label: 'Contato', href: '#contato' },
 ];
 
+/** Menu centralizado da Hero. */
+export const HERO_NAV = [
+  { label: 'Início', href: '#inicio' },
+  { label: 'Sobre Nós', href: '#escritorio' },
+  { label: 'Áreas de Atuação', href: '#areas-de-atuacao' },
+  { label: 'Corpo Jurídico', href: '#corpo-juridico' },
+  { label: 'Contato', href: '#contato' },
+];
+
 /**
  * Capítulos da narrativa 3D. `stage` = índice do estado das partículas
  * (ver src/three/lib/stages.js). `side` = lado do texto no desktop.
